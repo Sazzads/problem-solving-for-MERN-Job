@@ -6,7 +6,8 @@ function countVowelsAndConsonants(inputStr) {
   for (let char of inputStr) {
     if (vowel.includes(char)) {
       vowelCount++;
-    } else if (char.match(/[a-zA-Z]/)) {
+    } 
+    else if (char.match(/[a-zA-Z]/)) {
       countConsontant++;
     }
   }
@@ -16,6 +17,6 @@ function countVowelsAndConsonants(inputStr) {
   };
 }
 
-console.log(countVowelsAndConsonants("Hello World"));
+console.log(countVowelsAndConsonants("sazzad44*"));
 
 // Example usage:

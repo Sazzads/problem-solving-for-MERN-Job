@@ -12,4 +12,6 @@ function isPrime(number) {
   return true;
 }
 
-console.log(isPrime(16));
+console.log(isPrime(7));
+// const a=49
+// console.log(Math.sqrt(a));

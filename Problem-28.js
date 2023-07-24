@@ -1,13 +1,14 @@
 // Function with a callback
-function greetUser(name, callback) {
-  console.log("Hello, " + name + "!");
-  callback(); // Call the callback function
-}
+function addition(num1, num2, callback) {
 
-// Callback function
-function sayGoodbye() {
-  console.log("Programming HERO!");
+  console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}`)
+  callback()
 }
-
-// Using the greetUser function with the sayGoodbye callback
-greetUser("Jubair", sayGoodbye);
+function notification() {
+  console.log("the sum program is done")
+}
+function message() {
+  console.log("example of callbacks: ")
+}
+message()
+addition(2, 3, notification)
