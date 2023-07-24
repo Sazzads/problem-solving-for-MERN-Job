@@ -1,8 +1,19 @@
 //Make any short condition using Short conditonals
+// node Problem-5.js
 
-const coder = "Jubair";
+const myName = "Sazzad";
 
-//make with using &&
-coder === "Jubair" && console.log("I love Jubair");
+//regular 
+if (myName === "Sazzad") {
+    console.log("Your Name is", myName);
+}
+else {
+    console.log("wrong name");
+}
 
-coder === "Jubair" || console.log("I hate U");
+//make short with using &&
+myName === "Sazzad" && console.log("Your Name is", myName);
+
+myName === "Sazzad" ? console.log("Your Name is", myName) : console.log("wrong name");
+
+myName === "Sazza" || console.log("wrong name");

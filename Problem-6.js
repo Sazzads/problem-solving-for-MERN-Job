@@ -1,6 +1,11 @@
-//Replace some word which is wrong
+//Replace word or array element 
+//node Problem-6.js
 
-const kotha =
-  "Next JS is a React library & this library is the most popular for SSR library now ";
+const text ="React is a popular Javascript framework.";
 
-console.log(kotha.replace(/library/g, "framework"));
+console.log(text.replace(/framework/g ,"library").replace(/React/g,"REACT"));
+
+
+const array=["1","2","3","4","5"];
+const newArray=array.map(item=>item==="3"?"sazzad":item)
+console.log(newArray);
