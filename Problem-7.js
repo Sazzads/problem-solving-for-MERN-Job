@@ -1,11 +1,12 @@
-//Check performance for the task
+//Check performance time for the task
+//node Problem-7.js
 
 const starttime = performance.now();
 
-for (let i = 0; i <= 20; i++) {
+for (let i = 0; i <= 10; i++) {
   console.log(i);
 }
 
 const endtime = performance.now();
 
-console.log(`Now this value is : ${endtime - starttime}`);
+console.log(`Performance value is : ${endtime - starttime}`);
