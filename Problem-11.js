@@ -1,5 +1,6 @@
 //remove duplicate number from array
 
-const myArray = [1, 3, 33, 2, 3, 4, 5, 2, 3, 4, 5, 2, 3, 4, 5];
+const array = [1, 3, 3, 2, 3, 4, 5, 2, 3, 4, 5, 2, 3, 4, 5,5,8,6,7,5,8,6,9];
 
-console.log([...new Set(myArray)]);
+console.log([...new Set(array)]);
+

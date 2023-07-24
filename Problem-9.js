@@ -1,14 +1,15 @@
 // copy to clipboard
-const copyToClipboard = (data) => {
+
+const copyToClipboard = (str) => {
   const textarea = document.createElement("textarea");
-  textarea.value = data;
+  textarea.value = str;
   document.body.appendChild(textarea);
   textarea.select();
   document.execCommand("copy");
   document.body.removeChild(textarea);
 };
 
-const handleCopy = function () {
-  const element = document.getElementById("text");
-  copyToClipboard(element.innerText);
+const handleCopy = ()=> {
+  const text = document.getElementById("text");
+  copyToClipboard(text.innerText);
 };

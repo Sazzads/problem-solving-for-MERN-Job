@@ -1,11 +1,11 @@
 // destructuring alieses
 
-const WebDev = {
-  languages: "JavaScript",
-  founded: 1995,
-  Company: "Netscape Corporation",
+const myself = {
+  name: "sazzad",
+  address: "dhaka",
+  designation: "Web Developer",
 };
 
-const { languages: languName, Company: Name } = WebDev;
+const { name: nam, address: thikana, designation: podobi } = myself
 
-console.log(languName);
+console.log(nam, thikana, podobi);

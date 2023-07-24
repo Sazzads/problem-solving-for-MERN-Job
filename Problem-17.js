@@ -1,5 +1,9 @@
-function removeDuplicates(array) {
-  return [...new Set(array)];
+//compare two arrays by value
+//node Problem-17.js
+
+
+const hasSameElements = (a, b) => {
+  return a.length == b.length && a.every((value,index)=>value==b[index])
 }
 
-console.log(removeDuplicates([1, 3, 23, 44, 44, 5, 8, 4, 4, 5, 5, , 5, 5, 5]));
+console.log(hasSameElements([1,2],[1,2]));

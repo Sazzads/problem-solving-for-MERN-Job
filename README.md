@@ -18,22 +18,22 @@ Problem- 07 Check performance time for the task
 Problem- 08 array swappings and varriable value swappings
 
 Problem- 09 copy to clipboard
+ 
+Problem- 10 destructuring alieses
 
-Problem- 10
+Problem- 11 remove duplicate number from array
 
-Problem- 11
+Problem- 12 shuffling arrays 
 
-Problem- 12
+Problem- 13 console.log([] + []);
 
-Problem- 13
+Problem- 14 Finding the given factorial number
 
-Problem- 14
+Problem- 15 Check the string is Palindrome;
 
-Problem- 15
+Problem- 16 Reversing an array without using the built-in reverse() method:
 
-Problem- 16
-
-Problem- 17
+Problem- 17 compare two arrays by value
 
 Problem- 18
 
