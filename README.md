@@ -53,7 +53,7 @@ Problem- 25 slicing array of the elements
 
 Problem- 26 Write a code on how to calculate the number of vowels and consonants in a string?(Use Javascript only)
 
-Problem- 27
+Problem- 27 Reversing an array without using the built-in reverse() method
 
 Problem- 28 Function with a callback
 
